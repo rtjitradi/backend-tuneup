@@ -76,7 +76,7 @@ def main():
         if values > 1:
             duplicates.append(keys)
     print(f'Found {len(duplicates)} duplicate movies:')
-    print('\n'.join(result))
+    print('\n'.join(duplicates))
 
 
 if __name__ == '__main__':
